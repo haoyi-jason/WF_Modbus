@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1022
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF_Modbus", "WF_Modbus\WF_Modbus.csproj", "{28250DFE-D208-49BB-9B45-8554D35AE1C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iSense", "iSense\iSense.csproj", "{C7FB7B48-67B4-456C-A6BC-0E81509C324E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBDA_Tester", "..\MBDA_Tester\MBDA_Tester\MBDA_Tester.csproj", "{D3C1E36C-4219-46B8-B971-872FAF2C039C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISenseCS", "..\ISenseCS\ISenseCS\ISenseCS.csproj", "{92AC92AC-81A6-4A04-A91C-FDFD9DDF1CA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{28250DFE-D208-49BB-9B45-8554D35AE1C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28250DFE-D208-49BB-9B45-8554D35AE1C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28250DFE-D208-49BB-9B45-8554D35AE1C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7FB7B48-67B4-456C-A6BC-0E81509C324E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7FB7B48-67B4-456C-A6BC-0E81509C324E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7FB7B48-67B4-456C-A6BC-0E81509C324E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7FB7B48-67B4-456C-A6BC-0E81509C324E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3C1E36C-4219-46B8-B971-872FAF2C039C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C1E36C-4219-46B8-B971-872FAF2C039C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C1E36C-4219-46B8-B971-872FAF2C039C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C1E36C-4219-46B8-B971-872FAF2C039C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92AC92AC-81A6-4A04-A91C-FDFD9DDF1CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92AC92AC-81A6-4A04-A91C-FDFD9DDF1CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92AC92AC-81A6-4A04-A91C-FDFD9DDF1CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92AC92AC-81A6-4A04-A91C-FDFD9DDF1CA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
