@@ -32,6 +32,10 @@ namespace STLINK_ADAPTER
             {
                 STLinkCLIAppPath = STLinkCLIDefaultPath;
             }
+            else
+            {
+                STLinkCLIAppPath = a_STLinkCLIAppPath;
+            }
         }
         #endregion
 
